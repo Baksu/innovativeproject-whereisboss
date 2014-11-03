@@ -1,0 +1,30 @@
+package com.example.whereismyboss;
+
+import android.app.Activity;
+import android.os.Bundle;
+
+
+public class MainActivity extends Activity{
+	
+	public Sniffer sniff;
+	
+	@Override
+	public void onCreate(Bundle savedInstanceState)
+	{
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_main);
+		//Sniffer sniff = new Sniffer();
+		//sniff.start();
+	}
+
+	public void onPause()
+	{
+		//sniff.pause();
+	}
+	
+	public void onResume()
+	{
+		//sniff.resume();
+	}
+	
+}
